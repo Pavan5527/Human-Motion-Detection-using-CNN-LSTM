@@ -6,6 +6,7 @@ The second component of the system is overlapping human detection using deep lea
 
 ![image](https://github.com/Pavan5527/Human-Motion-Detection-using-CNN-LSTM/assets/85097031/d5babad3-3b8b-4b8b-bcf9-1fb139b974b6)
 
+Trained Data Outputs:
 Model: "sequential"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
@@ -68,3 +69,10 @@ Trainable params: 73,060
 Non-trainable params: 0
 _________________________________________________________________
 Model Created Successfully!
+
+
+Steps to be followed for the execution:
+input_video_file_path = f'test_videos/swinging.mp4'
+predict_single_action(input_video_file_path, SEQUENCE_LENGTH)
+VideoFileClip(input_video_file_path, audio=False, target_resolution=(500,200)).ipython_display()
+
