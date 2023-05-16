@@ -78,3 +78,9 @@ input_video_file_path = f'test_videos/swinging.mp4' <br/>
 predict_single_action(input_video_file_path, SEQUENCE_LENGTH) <br/>
 VideoFileClip(input_video_file_path, audio=False, target_resolution=(500,200)).ipython_display()
 
+Expected Output:
+
+https://github.com/Pavan5527/Human-Motion-Detection-using-CNN-LSTM/assets/85097031/8575cdd6-3861-4695-b7e0-995bdd7abbf8
+
+
+
