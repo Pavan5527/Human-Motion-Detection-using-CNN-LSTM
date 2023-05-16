@@ -80,7 +80,8 @@ VideoFileClip(input_video_file_path, audio=False, target_resolution=(500,200)).i
 
 Expected Output:
 
-https://github.com/Pavan5527/Human-Motion-Detection-using-CNN-LSTM/assets/85097031/8575cdd6-3861-4695-b7e0-995bdd7abbf8
 
+
+![image](https://github.com/Pavan5527/Human-Motion-Detection-using-CNN-LSTM/assets/85097031/82253d23-b227-4133-bcee-82434e1c4f3e)
 
 
