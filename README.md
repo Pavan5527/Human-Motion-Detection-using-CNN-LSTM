@@ -6,8 +6,8 @@ The second component of the system is overlapping human detection using deep lea
 
 ![image](https://github.com/Pavan5527/Human-Motion-Detection-using-CNN-LSTM/assets/85097031/d5babad3-3b8b-4b8b-bcf9-1fb139b974b6)
 
-Trained Data Outputs:
-Model: "sequential"
+Trained Data:
+Model: "Sequential Outputs"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
 =================================================================
