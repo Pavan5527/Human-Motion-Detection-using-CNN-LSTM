@@ -5,8 +5,8 @@ To address the issue of foggy conditions, the system incorporates pixel improvem
 The second component of the system is overlapping human detection using deep learning. This involves training deep learning algorithms on large datasets of video footage to detect and track overlapping human figures, even when they are partially occluded or obstructed by other objects in the scene. By using deep learning techniques which includes CNN, LSTM, LRCN, the system can learn to identify and distinguish between different body parts and movements, even in complex and cluttered environments.
 
 ![image](https://github.com/Pavan5527/Human-Motion-Detection-using-CNN-LSTM/assets/85097031/d5babad3-3b8b-4b8b-bcf9-1fb139b974b6)
-
-Trained Data:
+ <br/>
+Trained Data
 Model: "Sequential Outputs"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
@@ -72,7 +72,7 @@ Model Created Successfully!
 
 
 Steps to be followed for the execution:
-input_video_file_path = f'test_videos/swinging.mp4'
-predict_single_action(input_video_file_path, SEQUENCE_LENGTH)
+input_video_file_path = f'test_videos/swinging.mp4' <br/>
+predict_single_action(input_video_file_path, SEQUENCE_LENGTH) <br/>
 VideoFileClip(input_video_file_path, audio=False, target_resolution=(500,200)).ipython_display()
 
